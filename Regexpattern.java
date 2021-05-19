@@ -13,7 +13,7 @@ public class Regexpattern {
 		System.out.println("Enter the pincode");
 		String pincode = sc.nextLine();
 		sc.nextLine();
-		String regex = "^[1-9]{1}[0-9]{2}\\s{0,1}[0-9]{3}$";
+		String regex = "^[0-9]{3}[0-9]{3}$";
 		System.out.println("The zip code is: " + pincode);
 	    System.out.println("Is the pin code is correct? " + pincode.matches(regex));  
 	}

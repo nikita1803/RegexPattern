@@ -23,7 +23,7 @@ public class Regexpattern {
 		System.out.println("Enter the email");
 		String email = sc.nextLine();
 		sc.nextLine();
-		String regex = "^[abc]+(.+)$";
+		String regex = "^[abc]+@[bridgelabz](.+)$";
 		System.out.println("The email is: " + email);
 	    System.out.println("Check the email is correct? " + email.matches(regex));
 		

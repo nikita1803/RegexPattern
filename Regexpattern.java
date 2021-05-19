@@ -15,6 +15,6 @@ public class Regexpattern {
 		sc.nextLine();
 		String regex = "^[1-9]{1}[0-9]{2}[0-9]{3}$";
 		System.out.println("The zip code is: " + pincode);
-	    System.out.println("Is the pin code is correct? " + pincode.matches(regex));  
+	    System.out.println("Check the pin code is correct? " + pincode.matches(regex));  
 	}
 }
